@@ -25,11 +25,11 @@ async def _(e):
         if len(e.text) > 7:
             bc = rizoel[0]
             bc = int(bc)
-            text = "Leaving....."
+            text = "𝐉𝐀 𝐑𝐇𝐀 𝐇𝐔 𝐁𝐄 "
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("Succesfully Left")
+                await event.edit("𝐋𝐄 𝐀𝐁 𝐊𝐇𝐔𝐒")
             except Exception as e:
                 await event.edit(str(e))   
         else:
