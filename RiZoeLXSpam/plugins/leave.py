@@ -25,7 +25,7 @@ async def _(e):
         if len(e.text) > 7:
             bc = rizoel[0]
             bc = int(bc)
-            text = "𝐉𝐀 𝐑𝐇𝐀 𝐇𝐔 𝐁𝐄 "
+            text = "𝐉𝐀 𝐑𝐇𝐀 𝐇𝐔 𝐁𝐄"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
