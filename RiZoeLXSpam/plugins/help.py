@@ -4,9 +4,9 @@ from telethon.tl.custom import button
 from time import time
 from datetime import datetime
     
-HELP_PIC = "https://telegra.ph/file/9acc785291052c8f8998d.jpg"
+HELP_PIC = "https://te.legra.ph/file/1812d88915cc11cdd2c8b.jpg"
 
-Riz_Help = "🔥 𝗥𝗜𝗭𝗢𝗘𝗟 𝗫 𝗦𝗣𝗔𝗠 🔥\n\n"
+Riz_Help = "🔥 𝙍_𝙊𝙉𝙀 𝗫 𝗦𝗣𝗔𝗠 🔥\n\n"
  
 Riz_Help += f"__ᴄᴍᴅs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ʀɪᴢᴏᴇʟ x sᴘᴀᴍ__\n\n"
 
@@ -24,7 +24,7 @@ Riz_Help += f" `.raid` - to raid\n `.replyraid` - to active reply raid\n `.drepl
  
 Riz_Help += f"ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ.\n\n"
 
-Riz_Help += f"© @RiZoeLX | @DNHxHELL\n"
+Riz_Help += f"© @R_0NE_xD | @R_ONE_HU_VRO\n"
 
 
 @Riz.on(events.NewMessage(pattern=".help"))
@@ -35,10 +35,10 @@ async def help(event):
                                   caption=Riz_Help,
                                   buttons=[
         [
-        Button.url("ᴀʟʟ ᴄᴍᴅs", "https://telegra.ph/%F0%9D%97%A5%F0%9D%97%9C%F0%9D%97%AD%F0%9D%97%A2%F0%9D%97%98%F0%9D%97%9F-%F0%9D%97%AB-%F0%9D%97%A6%F0%9D%97%A3%F0%9D%97%94%F0%9D%97%A0-11-28-2")
+        Button.url("ᴀʟʟ ᴄᴍᴅs", "https://telegra.ph/R𝕆ℕ𝔼--Oᑭ-09-25-2")
         ],
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/RiZoeLX")
+        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/R_0NE_xD")
         ] 
         ]
         )                                                         
